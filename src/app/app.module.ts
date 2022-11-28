@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './student-entry/student-entry.component';
 import { StudentSearchComponent } from './student-search/student-search.component';
 import { DeleteStudentComponent } from './delete-student/delete-student.component';
+import { ViewAllComponent } from './view-all/view-all.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentEntryComponent,
     StudentSearchComponent,
-    DeleteStudentComponent
+    DeleteStudentComponent,
+    ViewAllComponent
   ],
   imports: [
     BrowserModule,
