@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./student-search.component.css']
 })
 export class StudentSearchComponent {
+  name=""
+
+  searchFunction=()=>
+  {
+    let data:any={
+      "name":this.name
+    }
+    console.log(data)
+  }
 
 }
