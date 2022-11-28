@@ -6,11 +6,13 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './student-entry/student-entry.component';
+import { StudentSearchComponent } from './student-search/student-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentEntryComponent
+    StudentEntryComponent,
+    StudentSearchComponent
   ],
   imports: [
     BrowserModule,
